@@ -32,7 +32,7 @@ def generate(user_input):
     return response
 
 if __name__ == "__main__":
-    print("Ask me anything (or type 'exit' to quit): ", end="")
+    print("Ask me anything (or type 'exit' to quit): \n", end="")
     
     while True:
         user_input = input()
